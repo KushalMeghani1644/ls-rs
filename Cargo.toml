@@ -6,7 +6,7 @@ version = "0.1.0"
 edition = "2024"
 authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
 description = "A Rust based colorful ls clone."
-license = "GPL-v3.0-later"
+license = "GPL-v3.0-or-later"
 [[bin]]
 name = "ls-rs"
 path = "src/main.rs"
