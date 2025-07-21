@@ -1,12 +1,12 @@
 [package]
+repository = "https://github.com/KushalMeghani1644/ls-rs"
+readme = "README.md"
 name = "ls-rs"
 version = "0.1.0"
 edition = "2024"
 authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
 description = "A Rust based colorful ls clone."
 license = "GPL-v3.0-later"
-repository = "https://github.com/KushalMeghani1644/ls-rs"
-readme = "README.md"
 
 [dependencies]
 ansi_term = "0.12.1"
