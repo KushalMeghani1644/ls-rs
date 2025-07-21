@@ -7,6 +7,8 @@ edition = "2024"
 authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
 description = "A Rust based colorful ls clone."
 license = "GPL-v3.0-later"
-
+[[bin]]
+name = "ls-rs"
+path = "src/main.rs"
 [dependencies]
 ansi_term = "0.12.1"
