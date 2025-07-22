@@ -2,7 +2,7 @@
 repository = "https://github.com/KushalMeghani1644/ls-rs"
 readme = "README.md"
 name = "ls-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
 description = "A Rust based colorful ls clone."
@@ -12,3 +12,4 @@ name = "ls-rs"
 path = "src/main.rs"
 [dependencies]
 ansi_term = "0.12.1"
+terminal_size = "0.3"
