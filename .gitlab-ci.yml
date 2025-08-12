@@ -1,0 +1,21 @@
+stages:
+  - build
+  - test
+
+cache:
+  paths:
+    - target
+    - ~/.cargo/registry
+
+build:
+  stage: build
+  image: rust:latest
+  script:
+    - rustc --version
+    - cargo build --verbose
+
+test:
+  stage: test
+  image: rust:latest
+  script:
+    - cargo test --verbose
